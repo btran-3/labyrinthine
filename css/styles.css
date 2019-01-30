@@ -49,10 +49,11 @@ dark: #4A2D37
 
 /******GLOBAL STYLES******/
 
-
+/*
 div{
 	border: .5px solid grey;
 }
+*/
 
 
 .twelve-grid{
@@ -135,6 +136,12 @@ img{
 	z-index: -100;
 }
 
+span.bolden{
+	font-family: edita, serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
 blockquote{
 	font-family: alverata, serif;
 	font-weight: 400;
@@ -152,6 +159,9 @@ blockquote .inline-link-next{
 	width: 100%;
 }
 
+.row-start-2{
+	grid-row-start: 2;
+}
 
 .row-start-3{
 	grid-row-start: 3;
@@ -213,6 +223,10 @@ blockquote .inline-link-next{
 	grid-column: 1/13;
 }
 
+.col-2-to-11{
+	grid-column: 2/11;
+}
+
 .col-3-to-7{
 	grid-column: 3/7;
 }
@@ -238,39 +252,21 @@ blockquote .inline-link-next{
 
 /******NAV******/
 
-
-nav{
-	margin: 70px auto 110px auto;
-}
-
-nav li{
+ul li{
 	font-family: interstate-mono, monospace;
 	font-weight: 400;
 	font-style: normal;
 	color: #4A2D37;
-	opacity: .4;
 	font-size: 15px;
 	margin: 4px 0 4px 0;
 	padding: 4px 0 4px 0;
-}
-
-nav li.nav-pacer-name{
-	font-weight: 700;
-}
-
-
-nav li.nav-active{
-	opacity: 1;
 	list-style: square;
 }
 
-a.inline-link-next{
-	font-family: interstate-mono, monospace;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 15px;
-
+div.top-nav{
+	margin-top: 6vh;
 }
+
 
 .next-arrow{
 
@@ -293,9 +289,8 @@ a.inline-link-next{
 	font-feature-settings: "ss01";
 
 }
-.next-arrow p:hover{
 
-}
+
 #highlight-link{
 	opacity: .4;
 	transition-duration: .5s;
@@ -308,7 +303,7 @@ a.inline-link-next{
 
 /******OPENING******/
 h1.title-text{
-	font-size: 96px;
+	font-size: 82px;
 }
 
 
@@ -341,7 +336,7 @@ button{
 	opacity: 1;
 	transition-duration: .5s;
 	outline: none;
-	background-color:#FCF4F7;
+	background: none;
 }
 
 button:hover{
@@ -524,6 +519,40 @@ p.mono-tech{
 
 
 /******ANIMATION******/
+
+/*
+
+.hover-this:hover img.hover-image-1{
+	opacity: 1;
+}
+
+#hover-image-1:target{
+	opacity: 1;
+}
+
+#hover-image-2:target{
+	opacity: 1;
+}
+
+#hover-image-1{
+	opacity: .1;
+
+	-webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+#hover-image-2{
+	opacity: .1;
+
+	-webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+*/
+
 
 span.boustrophedon{
 	color: dark grey;
