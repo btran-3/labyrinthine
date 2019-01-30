@@ -61,7 +61,7 @@ div{
 	/* padding-top: 500px; */
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	grid-column-gap: 12px;
+	grid-column-gap: 24px;
 	grid-template-rows: 15vh auto auto auto auto auto auto auto auto auto;
 }
 
@@ -108,7 +108,7 @@ h3{
 	font-family: alverata, serif;
 	font-weight: 600;
 	font-style: normal;
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 36px;
 	margin-bottom: 28px;
 }
@@ -131,6 +131,10 @@ img{
 	-ms-user-select: none;
 }
 
+.in-back{
+	z-index: -100;
+}
+
 blockquote{
 	font-family: alverata, serif;
 	font-weight: 400;
@@ -151,7 +155,6 @@ blockquote .inline-link-next{
 
 .row-start-3{
 	grid-row-start: 3;
-
 }
 
 .row-start-4{
@@ -160,6 +163,37 @@ blockquote .inline-link-next{
 
 .row-start-5{
 	grid-row-start: 5;
+}
+
+.row-start-6{
+	grid-row-start: 6;
+}
+
+.row-start-7{
+	grid-row-start: 7;
+}
+
+.row-start-8{
+	grid-row-start: 8;
+}
+
+.row-start-9{
+	grid-row-start: 9;
+}
+
+
+.col-start-2{
+		grid-column-start: 2;
+}
+
+.col-start-3{
+		grid-column-start: 3;
+}
+.col-start-4{
+		grid-column-start: 4;
+}
+.col-start-7{
+		grid-column-start: 7;
 }
 
 
@@ -179,11 +213,28 @@ blockquote .inline-link-next{
 	grid-column: 1/13;
 }
 
+.col-3-to-7{
+	grid-column: 3/7;
+}
+
+.col-8-to-12{
+	grid-column: 8/12;
+}
+
 
 .pad-bot-vh{
 	padding-bottom: 25vh;
 }
 
+.mar-top-100{
+	margin-top: 100px;
+}
+.mar-top-450{
+	margin-top: 450px;
+}
+.mar-top-950{
+	margin-top: 950px;
+}
 
 /******NAV******/
 
@@ -277,7 +328,6 @@ h1.title-text{
 .col2{
 	grid-column: 2/3;
 }
-
 
 
 button{
