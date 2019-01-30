@@ -7,7 +7,7 @@
 	margin: 0;
 	border: none;
 	text-decoration: none;
-	background-color:#FCF4F7;
+	/* background-color:#FCF4F7; */
 	color: #4A2D37;
 }
 
@@ -49,16 +49,24 @@ dark: #4A2D37
 
 /******GLOBAL STYLES******/
 
+/*
+div{
+	border: .5px solid grey;
+}
+*/
+
 .twelve-grid{
 	width: 1000px;
 	margin: 0 auto 0 auto;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 150px auto;
+	grid-column-gap: 12px;
+	grid-template-rows: 15vh auto auto auto auto auto auto auto auto auto;
 }
 
 body{
-
+	background-color:#FCF4F7;
+	overflow-x: hidden;
 }
 
 main{
@@ -81,8 +89,18 @@ h1.h1-rule{
 
 }
 
-.main-h1{
+.main-h{
 		grid-column: 2/12;
+		grid-row-start: 2;
+		margin-bottom: 50px;
+}
+
+h2{
+	font-family: alverata, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 48px;
+	color: #4A2D37;
 }
 
 h3{
@@ -92,14 +110,6 @@ h3{
 	font-size: 20px;
 	line-height: 36px;
 	margin-bottom: 28px;
-}
-
-
-h2{
-	font-family: alverata, serif;
-	font-weight: 400;
-	font-style: normal;
-	color: #4A2D37;
 }
 
 p{
@@ -124,6 +134,45 @@ blockquote{
 blockquote .inline-link-next{
 
 }
+
+.mid-bg{
+	background-color: #E8D7D7;
+
+	width: 100%;
+}
+
+
+.row-start-3{
+	grid-row-start: 3;
+
+}
+
+.row-start-4{
+	grid-row-start: 4;
+}
+
+.row-start-5{
+	grid-row-start: 5;
+}
+
+
+.center-6-col{
+	grid-column: 4/10;
+}
+
+.center-10-col{
+	grid-column: 2/12;
+}
+
+.left-8-col{
+	grid-column: 2/10;
+}
+
+
+.pad-bot-vh{
+	padding-bottom: 25vh;
+}
+
 
 /******NAV******/
 
@@ -204,19 +253,18 @@ h1.title-text{
 
 
 /******MAIN******/
-
-
-.two-column{
-	display: flex;
-	justify-content: space-between;
+.two-col{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 24px;
 }
 
-.two-column > div{
-	width: 48%;
+.col1{
+	grid-column: 1/2;
 }
 
 .col2{
-	padding-top: 135px;
+	grid-column: 2/3;
 }
 
 
@@ -232,6 +280,7 @@ button{
 	opacity: 1;
 	transition-duration: .5s;
 	outline: none;
+	background-color:#FCF4F7;
 }
 
 button:hover{
@@ -246,12 +295,24 @@ p.mono-def{
 	font-size: 14px;
 }
 
+p.mono-tech{
+	padding-left: 32px;
+	border-left: 2px solid #FCF4F7;
+	font-family: interstate-mono, monospace;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+
+
+
 #test-para{
 	font-family: edita-small, serif;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 26px;
-	grid-column: 4/10;
+	/*grid-column: 4/10;*/
 }
 
 #test-para > div{
@@ -308,7 +369,7 @@ p.mono-def{
 
 /******SCREEN SIZE MEDIA QUERY******/
 .warning{
-
+	background-color:#FCF4F7;
 	position:fixed;
 	width: 100%;
 	height: 100%;
