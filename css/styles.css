@@ -49,15 +49,16 @@ dark: #4A2D37
 
 /******GLOBAL STYLES******/
 
-/*
+
 div{
 	border: .5px solid grey;
 }
-*/
+
 
 .twelve-grid{
 	width: 1000px;
 	margin: 0 auto 0 auto;
+	/* padding-top: 500px; */
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-column-gap: 12px;
@@ -166,6 +167,10 @@ blockquote .inline-link-next{
 
 .left-8-col{
 	grid-column: 2/10;
+}
+
+.all-12-col{
+	grid-column: 1/13;
 }
 
 
@@ -396,7 +401,7 @@ p.mono-tech{
 
 /******TRANSITIONS******/
 #slide{
-	animation: 1s ease-out;
+	animation: .7s ease-out;
 }
 
 #fader{
@@ -429,13 +434,13 @@ p.mono-tech{
 }
 
 @keyframes slide-up{
-	from { transform: translate(4em,0em); }
+	from { transform: translate(2em,0em); }
 		to { transform: translate(0em,0em) }
 }
 
 @keyframes slide-down{
 	from { transform: translate(0em,0em); }
-		to { transform: translate(-4em,0em) }
+		to { transform: translate(-2em,0em) }
 }
 
 #slide.slide-up{
