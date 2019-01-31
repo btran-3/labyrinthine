@@ -42,6 +42,7 @@ Interstate mono{
 light background: #FCF4F7
 medium: #E8D7D7
 dark: #4A2D37
+
 */
 
 
@@ -153,6 +154,22 @@ blockquote .inline-link-next{
 
 }
 
+.quote-this{
+	font-family: alverata, serif;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 36px;
+}
+
+.far-leading{
+	line-height: 50vh;
+}
+
+.center-text{
+	text-align: center;
+}
+
+
 .mid-bg{
 	background-color: #E8D7D7;
 
@@ -240,6 +257,14 @@ blockquote .inline-link-next{
 	padding-bottom: 25vh;
 }
 
+.mar-bot-vh{
+	margin-bottom: 40vh;
+}
+
+.mar-top-vh{
+	margin-top: 25vh;
+}
+
 .mar-top-100{
 	margin-top: 100px;
 }
@@ -308,7 +333,6 @@ h1.title-text{
 
 
 
-
 /******MAIN******/
 .two-col{
 	display: grid;
@@ -322,6 +346,10 @@ h1.title-text{
 
 .col2{
 	grid-column: 2/3;
+}
+
+.center-align{
+	justify-content: center;
 }
 
 
@@ -359,6 +387,10 @@ p.mono-tech{
 	font-style: normal;
 	font-size: 14px;
 	margin-bottom: 40px;
+}
+
+.zombie-copy{
+	color:
 }
 
 
