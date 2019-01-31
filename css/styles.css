@@ -43,6 +43,8 @@ light background: #FCF4F7
 medium: #E8D7D7
 dark: #4A2D37
 
+light green: #D5E7E2
+dark green: #9EC6BD
 */
 
 
@@ -78,7 +80,7 @@ main{
 
 h1{
 	font-family: alverata, serif;
-	font-weight: 700;
+	font-weight: 600;
 	font-style: normal;
 	font-size: 72px;
 	color: #4A2D37;
@@ -257,13 +259,14 @@ blockquote .inline-link-next{
 	padding-bottom: 25vh;
 }
 
+.mar-top-vh{
+	margin-top: 25vh;
+}
+
 .mar-bot-vh{
 	margin-bottom: 40vh;
 }
 
-.mar-top-vh{
-	margin-top: 25vh;
-}
 
 .mar-top-100{
 	margin-top: 100px;
@@ -390,8 +393,21 @@ p.mono-tech{
 }
 
 .zombie-copy{
-	color:
+	color: #D5E7E2;
 }
+
+.zombie-standout{
+	color: #4A2D37;
+}
+
+span.final-caps{
+	font-family: edita-small, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-variant-caps: small-caps;
+	font-size: 1em;
+}
+
 
 
 
