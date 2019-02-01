@@ -42,6 +42,9 @@ Interstate mono{
 light background: #FCF4F7
 medium: #E8D7D7
 dark: #4A2D37
+
+light green: #D5E7E2
+dark green: #9EC6BD
 */
 
 
@@ -135,7 +138,7 @@ text{
 	font-weight: 400;
 	font-style: normal;
 	font-size: 1.3px;
-	fill: #FCF4F7;
+	fill: #9EC6BD;
 	opacity: .5;
 }
 
@@ -235,7 +238,7 @@ a.inline-link-next{
 
 .center-column{
 	width: 48%;
-	margin: 0 auto 0 auto;
+	margin: 15vh auto 0 auto;
 	background: none;
 }
 
