@@ -94,12 +94,6 @@ h1.h1-rule{
 
 }
 
-.main-h{
-		grid-column: 2/12;
-		grid-row-start: 2;
-		margin-bottom: 50px;
-}
-
 h2{
 	font-family: alverata, serif;
 	font-weight: 400;
@@ -212,19 +206,22 @@ blockquote .inline-link-next{
 
 
 .col-start-2{
-		grid-column-start: 2;
+	grid-column-start: 2;
 }
 
 .col-start-3{
-		grid-column-start: 3;
+	grid-column-start: 3;
 }
 .col-start-4{
-		grid-column-start: 4;
+	grid-column-start: 4;
 }
 .col-start-7{
-		grid-column-start: 7;
+	grid-column-start: 7;
 }
 
+.width-6-col{
+
+}
 
 .center-6-col{
 	grid-column: 4/10;
@@ -242,6 +239,10 @@ blockquote .inline-link-next{
 	grid-column: 1/13;
 }
 
+.col-2-to-8{
+	grid-column: 2/8;
+}
+
 .col-2-to-11{
 	grid-column: 2/11;
 }
@@ -255,16 +256,15 @@ blockquote .inline-link-next{
 }
 
 
-.pad-bot-vh{
-	padding-bottom: 25vh;
-}
 
 .mar-top-vh{
 	margin-top: 25vh;
 }
-
 .mar-bot-vh{
 	margin-bottom: 40vh;
+}
+.pad-bot-vh{
+	padding-bottom: 25vh;
 }
 
 
@@ -277,6 +277,13 @@ blockquote .inline-link-next{
 .mar-top-950{
 	margin-top: 950px;
 }
+.mar-bot-50{
+	margin-bottom: 50px
+}
+.mar-bot-200{
+	margin-bottom: 200px
+}
+
 
 /******NAV******/
 
@@ -373,6 +380,13 @@ button{
 
 button:hover{
 	opacity: .4;
+}
+
+p.mono-text{
+	font-family: interstate-mono, monospace;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
 }
 
 p.mono-def{
