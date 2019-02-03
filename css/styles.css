@@ -79,7 +79,7 @@ div{
 	position: fixed;
 	left:0;
 	right:0;
-	opacity: .02;
+	opacity: .05;
 	z-index: 10;
 	pointer-events: none;
 }
@@ -152,6 +152,10 @@ img{
 	z-index: -100;
 }
 
+.low-opacity{
+	opacity:.4;
+}
+
 span.bolden{
 	font-family: edita, serif;
 	font-weight: 700;
@@ -170,6 +174,7 @@ blockquote .inline-link-next{
 }
 
 .quote-this{
+	font-size: 24px;
 	font-family: alverata, serif;
 	font-weight: 400;
 	font-style: italic;
@@ -258,6 +263,10 @@ blockquote .inline-link-next{
 	grid-column: 1/13;
 }
 
+.col-2-to-7{
+	grid-column: 2/7;
+}
+
 .col-2-to-8{
 	grid-column: 2/8;
 }
@@ -270,11 +279,26 @@ blockquote .inline-link-next{
 	grid-column: 3/7;
 }
 
+.col-3-to-8{
+	grid-column: 3/8;
+}
+
+.col-6-to-11{
+	grid-column: 6/11;
+}
+
+.col-7-to-12{
+	grid-column: 7/12;
+}
+
 .col-8-to-12{
 	grid-column: 8/12;
 }
 
 
+.mar-top-em{
+	margin-top: 6em;
+}
 
 .mar-top-vh{
 	margin-top: 25vh;
@@ -286,16 +310,25 @@ blockquote .inline-link-next{
 	padding-bottom: 25vh;
 }
 
-
+.mar-top-28{
+	margin-top: 28px;
+}
 .mar-top-100{
 	margin-top: 100px;
+}
+.mar-top-300{
+	margin-top: 300px;
 }
 .mar-top-450{
 	margin-top: 450px;
 }
+.mar-top-750{
+	margin-top: 750px;
+}
 .mar-top-950{
 	margin-top: 950px;
 }
+
 .mar-bot-50{
 	margin-bottom: 50px
 }
@@ -426,6 +459,12 @@ p.mono-tech{
 	margin-bottom: 40px;
 }
 
+
+span.green-text{
+	color: #9EC6BD;
+}
+
+
 .zombie-copy{
 	color: #D5E7E2;
 }
@@ -445,7 +484,7 @@ span.final-caps{
 
 
 
-#test-para{
+#test-para, #test-para-2{
 	font-family: edita-small, serif;
 	font-weight: 400;
 	font-size: 18px;
@@ -453,11 +492,11 @@ span.final-caps{
 	/*grid-column: 4/10;*/
 }
 
-#test-para > div{
+#test-para > div, #test-para-2 > div{
 	overflow: hidden;
 }
 
-#test-para > .visible{
+#test-para > .visible, #test-para-2 > .visible{
 	display: block;
 	opacity: 1;
 	/* When showing the content we only need to transition the
@@ -468,7 +507,7 @@ span.final-caps{
 	transition: opacity 1s linear;
 }
 
-#test-para > .hidden {
+#test-para > .hidden, #test-para-2 > .hidden  {
   display: none;
   opacity: 0;
   /* When hiding the content we should delay the transition
@@ -486,7 +525,7 @@ span.final-caps{
    space should be applied to the element’s content, not to
    the shown/hidden element itself, so that the element can
    collapse to a 0px height. */
-#test-para > div > div {
+#test-para > div > div, #test-para-2 > div > div {
   margin-top: 0px;
 
 }
@@ -494,13 +533,44 @@ span.final-caps{
 /* We’re hiding the content with a negative top margin, after
    a 2s delay. We’re not using display:none or position:absolute
    because we can’t delay those. */
-#test-para > .hidden > div {
+#test-para > .hidden > div, #test-para-2 > .hidden > div {
   margin-top: -10000px;
   -webkit-transition: margin-top 0s 1s;
   -moz-transition: margin-top 0s 1s;
   -o-transition: margin-top 0s 1s;
   transition: margin-top 0s 1s;
 }
+
+
+
+/******SECTION 2******/
+
+#freud-indent0{
+	margin-left: .8em;
+}
+#freud-indent{
+	margin-left: 1em;
+}
+#freud-indent2{
+	text-align: right;
+	margin-right: 1.1em;
+}
+.mar-top-11-7em{
+	margin-top: 11.7em;
+}
+.mar-top--8em{
+	margin-top: .8em;
+}
+.mar-top-4-8em{
+	margin-top: 4.8em;
+}
+.mar-top-4-2em{
+	margin-top: 4.2em;
+}
+.mar-top-4-9em{
+	margin-top: 4.9em;
+}
+
 
 
 
