@@ -69,6 +69,25 @@ div{
 	grid-template-rows: 15vh auto auto auto auto auto auto auto auto auto;
 }
 
+.twelve-grid-bg{
+	width: 1000px;
+	margin: 0 auto 0 auto;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-column-gap: 24px;
+	grid-template-rows: 100vh;
+	position: fixed;
+	left:0;
+	right:0;
+	opacity: .02;
+	z-index: 10;
+	pointer-events: none;
+}
+
+#col-guide-1, #col-guide-2, #col-guide-3, #col-guide-4, #col-guide-5, #col-guide-6, #col-guide-7, #col-guide-8, #col-guide-9, #col-guide-10, #col-guide-11, #col-guide-12{
+	background-color: grey;
+}
+
 body{
 	background-color:#FCF4F7;
 	overflow-x: hidden;
