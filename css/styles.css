@@ -52,11 +52,11 @@ dark green: #9EC6BD
 
 /******GLOBAL STYLES******/
 
-/*
+
 div{
 	border: .5px solid grey;
 }
-*/
+
 
 
 .twelve-grid{
@@ -360,6 +360,8 @@ div.top-nav{
 .next-arrow{
 
 }
+
+
 .next-arrow p{
 	font-size: 15px;
 	font-family: interstate-mono, monospace;
@@ -370,6 +372,18 @@ div.top-nav{
 	width: 850px;
 	margin: 120px auto 200px auto;
 }
+
+.next-arrow-top p{
+	font-size: 15px;
+	font-family: interstate-mono, monospace;
+	font-weight: 400;
+	font-style: normal;
+	color: #4A2D37;
+	text-align: right;
+	width: 850px;
+	margin: 120px auto 100px auto;
+}
+
 .arrow-glyph{
 	font-size: 48px;
 	font-family: edita-small, serif;
@@ -378,6 +392,7 @@ div.top-nav{
 	font-feature-settings: "ss01";
 
 }
+
 
 
 #highlight-link{
