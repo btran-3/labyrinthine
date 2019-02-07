@@ -69,7 +69,7 @@ div{
 	grid-template-rows: 15vh auto auto auto auto auto auto auto auto auto;
 }
 
-/*
+
 .twelve-grid-bg{
 	width: 1000px;
 	margin: 0 auto 0 auto;
@@ -88,7 +88,7 @@ div{
 #col-guide-1, #col-guide-2, #col-guide-3, #col-guide-4, #col-guide-5, #col-guide-6, #col-guide-7, #col-guide-8, #col-guide-9, #col-guide-10, #col-guide-11, #col-guide-12{
 	background-color: grey;
 }
-*/
+
 
 body{
 	background-color:#FCF4F7;
@@ -230,6 +230,10 @@ blockquote .inline-link-next{
 	grid-row-start: 9;
 }
 
+.row-2-to-4{
+	grid-row: 2/4;
+}
+
 
 .col-start-2{
 	grid-column-start: 2;
@@ -285,6 +289,10 @@ blockquote .inline-link-next{
 	grid-column: 3/8;
 }
 
+.col-3-to-13{
+	grid-column: 3/13;
+}
+
 .col-6-to-11{
 	grid-column: 6/11;
 }
@@ -301,7 +309,6 @@ blockquote .inline-link-next{
 .mar-top-em{
 	margin-top: 6em;
 }
-
 .mar-top-vh{
 	margin-top: 25vh;
 }
