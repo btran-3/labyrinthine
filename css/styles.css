@@ -69,7 +69,7 @@ div{
 	grid-template-rows: 15vh auto auto auto auto auto auto auto auto auto;
 }
 
-/*
+
 .twelve-grid-bg{
 	width: 1000px;
 	margin: 0 auto 0 auto;
@@ -88,7 +88,7 @@ div{
 #col-guide-1, #col-guide-2, #col-guide-3, #col-guide-4, #col-guide-5, #col-guide-6, #col-guide-7, #col-guide-8, #col-guide-9, #col-guide-10, #col-guide-11, #col-guide-12{
 	background-color: grey;
 }
-*/
+
 
 
 body{
@@ -347,6 +347,14 @@ blockquote .inline-link-next{
 	margin-bottom: 200px
 }
 
+.relative-pos{
+	position: relative;
+}
+
+.grid-align-bot{
+	align-self: end;
+}
+
 
 /******NAV******/
 
@@ -596,6 +604,49 @@ span.final-caps{
 .mar-top-4-9em{
 	margin-top: 4.9em;
 }
+
+
+
+
+/******SECTION 6******/
+#bg-inscription{
+	color: #E8D7D7;
+	color: #D5E7E2;
+
+	font-family: alverata, serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 64px;
+	line-height: 72px;
+	margin-bottom: 28px;
+	z-index: -10;
+	position: absolute;
+	top: 200px;
+	left: 6vw;
+	padding-right: 6vw;
+	pointer-events: none;
+	/*
+	text-overflow: clip;
+	overflow: hidden;
+	white-space: nowrap;
+	*/
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	hyphens: none;
+}
+
+
+#bg-inscription span.faded{
+	color: #D5E7E2;
+	opacity: .5
+}
+
+#bg-inscription span.laberinto{
+	color: #E8D7D7;
+}
+
+
+
 
 
 
