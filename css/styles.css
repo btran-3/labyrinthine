@@ -69,9 +69,19 @@ div{
 	grid-template-rows: 15vh auto auto auto auto auto auto auto auto auto;
 }
 
+.twelve-grid-fixed-row-1{
+	width: 1000px;
+	margin: 0 auto 0 auto;
+	/* padding-top: 500px; */
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-column-gap: 24px;
+	grid-template-rows: 116px auto auto auto auto auto auto auto auto auto;
+}
+
 
 /*
-.twelve-grid-bg{
+.twelve-grid-col-bg{
 	width: 1000px;
 	margin: 0 auto 0 auto;
 	display: grid;
@@ -236,6 +246,10 @@ blockquote .inline-link-next{
 
 .row-2-to-4{
 	grid-row: 2/4;
+}
+
+.row-1-to-6{
+	grid-row: 1/6;
 }
 
 
@@ -611,6 +625,26 @@ span.final-caps{
 
 
 /******SECTION 6******/
+#testing-clue-to-copy{
+	min-width: 1564px !important;
+	max-width: 1564px !important;
+	position: absolute;
+	top: 4px;
+	left: 48.52%;
+	margin-left: -782px;
+	pointer-events: none;
+
+}
+
+#edita-clue-to-copy{
+	width: 1000px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -500px;
+	pointer-events: none;
+}
+
 #bg-inscription{
 	color: #E8D7D7;
 	color: #D5E7E2;
