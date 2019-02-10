@@ -70,6 +70,7 @@ div{
 }
 
 
+/*
 .twelve-grid-bg{
 	width: 1000px;
 	margin: 0 auto 0 auto;
@@ -88,6 +89,7 @@ div{
 #col-guide-1, #col-guide-2, #col-guide-3, #col-guide-4, #col-guide-5, #col-guide-6, #col-guide-7, #col-guide-8, #col-guide-9, #col-guide-10, #col-guide-11, #col-guide-12{
 	background-color: grey;
 }
+*/
 
 
 
@@ -621,7 +623,7 @@ span.final-caps{
 	margin-bottom: 28px;
 	z-index: -10;
 	position: absolute;
-	top: 200px;
+	top: 260px;
 	left: 6vw;
 	padding-right: 6vw;
 	pointer-events: none;
