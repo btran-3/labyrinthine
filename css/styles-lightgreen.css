@@ -1,0 +1,165 @@
+/*GLOBAL CSS*/
+
+*{
+	box-sizing: border-box;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	border: none;
+	text-decoration: none;
+	color: #4A2D37;
+}
+
+/* Font variations
+ Alverata{
+	font-family: alverata, serif;
+	font-weight: 400 or 600 or 700;
+	font-style: normal or italic;
+}
+
+Edita small (for copy){
+	font-family: edita-small, serif;
+	font-weight: 400;
+	font-style: normal or italic;
+}
+
+Edita (bold){
+	font-family: edita, serif;
+	font-weight: 700;
+	font-style: normal or italic;
+}
+
+Interstate mono{
+	font-family: interstate-mono, monospace;
+	font-weight: 400 or 700;
+	font-style: normal;
+}
+*/
+
+
+/*Colors
+light background: #FCF4F7
+medium: #E8D7D7
+dark: #4A2D37
+
+light green: #D5E7E2
+dark green: #9EC6BD
+*/
+
+svg{
+	fill: red;
+}
+
+
+/******GLOBAL STYLES******/
+
+body{
+	width: 1000px;
+	margin: 0 auto 0 auto;
+	background: #D5E7E2;
+}
+
+main{
+	width: 850px;
+	margin: 0 auto 0 auto;
+	background: none;
+}
+
+h4{
+	font-family: alverata, serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 36px;
+	margin-bottom: 64px;
+	font-variant-caps: small-caps;
+}
+
+
+p{
+	font-family: edita-small, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 26px;
+	background: none;
+}
+
+
+
+
+/******NAV******/
+nav{
+	margin: 50px auto 70px auto;
+}
+
+nav li{
+	font-family: interstate-mono, monospace;
+	font-weight: 400;
+	font-style: normal;
+	color: #4A2D37;
+	opacity: .4;
+	font-size: 15px;
+	margin: 4px 0 4px 0;
+	padding: 4px 0 4px 0;
+}
+
+nav li.nav-pacer-name{
+	font-weight: 700;
+}
+
+
+nav li.nav-active{
+	opacity: 1;
+	list-style: square;
+	color: #FCF4F7;
+}
+
+
+
+a.inline-link-next{
+	font-family: interstate-mono, monospace;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+
+}
+
+
+.next-arrow{
+	background: none;
+}
+
+.next-arrow p{
+	font-size: 15px;
+	font-family: interstate-mono, monospace;
+	font-weight: 400;
+	font-style: normal;
+	color: #FCF4F7;
+	text-align: right;
+	width: 850px;
+	margin: 120px auto auto auto;
+}
+
+.arrow-glyph{
+	font-size: 48px;
+	font-family: edita-small, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-feature-settings: "ss01";
+
+}
+
+
+
+/******BACKGROUNDS******/
+#section1-asterisk{
+	min-width: 1564px !important;
+	max-width: 1564px !important;
+	position: absolute;
+	top: 4px;
+	left: 48.52%;
+	margin-left: -782px;
+	pointer-events: none;
+
+}

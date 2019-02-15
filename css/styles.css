@@ -185,9 +185,15 @@ blockquote{
 	line-height: 36px;
 }
 
-blockquote .inline-link-next{
-
+span.green-underline-medium{
+	padding-bottom: 2px;
+	border-bottom: solid 2px #9EC6BD;
 }
+span.green-underline-copy{
+	padding-bottom: .5px;
+	border-bottom: solid 1.5px #9EC6BD;
+}
+
 
 .quote-this{
 	font-size: 24px;
@@ -208,7 +214,6 @@ blockquote .inline-link-next{
 
 .mid-bg{
 	background-color: #E8D7D7;
-
 	width: 100%;
 }
 
@@ -285,6 +290,10 @@ blockquote .inline-link-next{
 
 .all-12-col{
 	grid-column: 1/13;
+}
+
+.col-2-to-6{
+	grid-column: 2/6;
 }
 
 .col-2-to-7{
@@ -595,6 +604,18 @@ span.final-caps{
 
 /******SECTION 2******/
 
+#broken-compass-quote{
+	min-width: 1564px !important;
+	max-width: 1564px !important;
+	position: absolute;
+	top: 800px;
+	left: 50%;
+	margin-left: -782px;
+	pointer-events: none;
+
+}
+
+
 #freud-indent0{
 	margin-left: .8em;
 }
@@ -734,9 +755,7 @@ span.final-caps{
 .fader-light{
 	background: #FCF4F7;
 }
-.fader-dark{
-	background: #4A2D37;
-}
+
 
 
 @keyframes fade-out {
