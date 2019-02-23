@@ -80,7 +80,7 @@ div{
 }
 
 
-/*
+
 .twelve-grid-col-bg{
 	width: 1000px;
 	margin: 0 auto 0 auto;
@@ -99,7 +99,7 @@ div{
 #col-guide-1, #col-guide-2, #col-guide-3, #col-guide-4, #col-guide-5, #col-guide-6, #col-guide-7, #col-guide-8, #col-guide-9, #col-guide-10, #col-guide-11, #col-guide-12{
 	background-color: grey;
 }
-*/
+
 
 
 
@@ -644,16 +644,31 @@ span.final-caps{
 
 
 /******SECTION 3******/
-
-#myList li{
-	transition: all .4s ease-in-out;
-	transform: translate3d(300px, 0px, 0);
-	opacity: 0;
+.infinite-scroll{
+	margin: 0 auto;
+	white-space: nowrap;
+	overflow: hidden;
+	position: absolute;
+	width: 100vw;
+	left: 0px;
 }
 
-#myList li.active{
-	transform: translate3d(0px, 0, 0);
-	opacity: 1;
+.infinite-scroll span{
+	display: inline-block;
+	padding-left: 100%;
+	animation: scrolling1 12s linear infinite;
+}
+
+.infinite-scroll2 span{
+	animation-delay: -4s;
+}
+.infinite-scroll3 span{
+	animation-delay: 4s;
+}
+
+@keyframes scrolling1 {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
 }
 
 .bgAnim{
