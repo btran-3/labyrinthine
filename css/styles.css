@@ -644,7 +644,7 @@ span.final-caps{
 
 
 /******SECTION 3******/
-.infinite-scroll{
+.infinite-scroll1, .infinite-scroll4, .infinite-scroll7, .infinite-scroll10, .infinite-scroll13, .infinite-scroll16, .infinite-scroll19{
 	margin: 0 auto;
 	white-space: nowrap;
 	overflow: hidden;
@@ -653,23 +653,39 @@ span.final-caps{
 	left: 0px;
 }
 
-.infinite-scroll span{
-	display: inline-block;
-	padding-left: 100%;
-	animation: scrolling1 12s linear infinite;
-}
+.infinite-scroll1 span{display: inline-block; padding-left: 100%; animation: scrolling 30s linear infinite;}
+.infinite-scroll2 span{animation-delay: -20s;}
+.infinite-scroll3 span{animation-delay: -10s;}
 
-.infinite-scroll2 span{
-	animation-delay: -4s;
-}
-.infinite-scroll3 span{
-	animation-delay: 4s;
-}
+.infinite-scroll4 span{display: inline-block; padding-left: 100%; animation: scrolling 21s linear infinite;}
+.infinite-scroll5 span{animation-delay: -14s;}
+.infinite-scroll6 span{animation-delay: -7s;}
 
-@keyframes scrolling1 {
+.infinite-scroll7 span{display: inline-block; padding-left: 100%; animation: scrolling 24s linear infinite;}
+.infinite-scroll8 span{animation-delay: -16s;}
+.infinite-scroll9 span{animation-delay: -8s;}
+
+.infinite-scroll10 span{display: inline-block; padding-left: 100%; animation: scrolling 18s linear infinite;}
+.infinite-scroll11 span{animation-delay: -12s;}
+.infinite-scroll12 span{animation-delay: -6s;}
+
+.infinite-scroll13 span{display: inline-block; padding-left: 100%; animation: scrolling 15s linear infinite;}
+.infinite-scroll14 span{animation-delay: -10s;}
+.infinite-scroll15 span{animation-delay: -5s;}
+
+.infinite-scroll16 span{display: inline-block; padding-left: 100%; animation: scrolling 9s linear infinite;}
+.infinite-scroll17 span{animation-delay: -6s;}
+.infinite-scroll18 span{animation-delay: -3s;}
+
+.infinite-scroll19 span{display: inline-block; padding-left: 100%; animation: scrolling 12s linear infinite;}
+.infinite-scroll20 span{animation-delay: -8s;}
+.infinite-scroll21 span{animation-delay: -4s;}
+
+@keyframes scrolling {
     0%   { transform: translate(0, 0); }
     100% { transform: translate(-100%, 0); }
 }
+
 
 .bgAnim{
   pointer-events: none;
