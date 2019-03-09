@@ -59,6 +59,7 @@ div{
 */
 
 
+
 .twelve-grid{
 	width: 1000px;
 	margin: 0 auto 0 auto;
@@ -324,6 +325,10 @@ span.green-underline-copy{
 	grid-column: 3/13;
 }
 
+.col-4-to-9{
+	grid-column: 4/9;
+}
+
 .col-5-to-10{
 	grid-column: 5/10;
 }
@@ -334,6 +339,10 @@ span.green-underline-copy{
 
 .col-7-to-12{
 	grid-column: 7/12;
+}
+
+.col-7-to-13{
+	grid-column: 7/13;
 }
 
 .col-8-to-12{
@@ -722,8 +731,12 @@ span.final-caps{
 
 .labyrinth-center{
 	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	margin-top: 25vh;
 	width: 75%;
-	max-width: 1500px;
+	max-width: 1200px;
 }
 
 #spin-this{
@@ -744,6 +757,88 @@ span.final-caps{
 }
 
 
+
+
+
+/******SECTION 5******/
+
+/*
+.spin-3d-scene{
+	width: 500px;
+}
+
+.coin{
+  width: 100%;
+  height: 100%;
+  position: relative;
+	animation:spin3d 3s linear infinite;
+	-webkit-animation:spin3d 3s linear infinite;
+	-moz-animation:spin3d 3s linear infinite;
+	 perspective: 200px;
+  transform-style: preserve-3d;
+}
+
+.coin-face {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.coin-face-front {
+}
+
+.coin-face-back {
+  transform: rotateY( 180deg );
+}
+
+@-moz-keyframes spin3d {
+	100% { -moz-transform: rotateY(360deg); }
+}
+@-webkit-keyframes spin3d {
+	100% { -webkit-transform: rotateY(360deg); }
+}
+@keyframes spin3d {
+	100% { transform:rotateY(360deg); }
+}
+*/
+
+.spin-3d-scene{
+	width: 400px;
+	height: 100%;
+}
+
+.coin{
+  height: 100%;
+  width: 100%;
+  position: relative;
+	transform: perspective(75em) rotateY(0deg) rotateX(0deg);
+	-moz-transition: 1s ease-in-out;
+	-o-transition: 1s ease-in-out;
+	transition: 1s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+.coin-face {
+	position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.coin-face-front {
+	background: red;
+}
+
+.coin-face-back {
+	background: blue;
+  transform: rotateY( 180deg );
+}
+
+
+.coin:hover{
+	transform: perspective(40em) rotateY(180deg) rotateX(0deg);
+}
 
 /******SECTION 6******/
 #testing-clue-to-copy{
