@@ -292,6 +292,10 @@ span.green-underline-copy{
 	grid-column: 1/13;
 }
 
+.col-2-to-5{
+	grid-column: 2/5;
+}
+
 .col-2-to-6{
 	grid-column: 2/6;
 }
@@ -318,6 +322,10 @@ span.green-underline-copy{
 
 .col-3-to-13{
 	grid-column: 3/13;
+}
+
+.col-5-to-10{
+	grid-column: 5/10;
 }
 
 .col-6-to-11{
@@ -368,6 +376,11 @@ span.green-underline-copy{
 .mar-bot-50{
 	margin-bottom: 50px
 }
+
+.mar-bot-100{
+	margin-bottom: 100px;
+}
+
 .mar-bot-200{
 	margin-bottom: 200px
 }
@@ -698,6 +711,36 @@ span.final-caps{
 .bgAnim img{
   max-width: 100%;
   max-height: 100%;
+}
+
+.labyrinth-right-bleed{
+	position: absolute;
+	right: -33.33%;
+	width: 75%;
+	max-width: 1500px;
+}
+
+.labyrinth-center{
+	position: absolute;
+	width: 75%;
+	max-width: 1500px;
+}
+
+#spin-this{
+	animation:spin 6s linear infinite;
+	-webkit-animation:spin 6s linear infinite;
+	-moz-animation:spin 6s linear infinite;
+}
+
+
+@-moz-keyframes spin {
+	100% { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+	100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+	100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
 }
 
 
