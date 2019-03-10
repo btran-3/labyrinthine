@@ -359,6 +359,9 @@ span.green-underline-copy{
 .mar-bot-vh{
 	margin-bottom: 40vh;
 }
+.mar-bot-30vh{
+	margin-bottom: 30vh;
+}
 .pad-bot-vh{
 	padding-bottom: 25vh;
 }
@@ -804,15 +807,16 @@ span.final-caps{
 */
 
 .spin-3d-scene{
-	width: 400px;
-	height: 100%;
+	position: absolute;
+	width: 300px;
+	height: 300px;
 }
 
 .coin{
   height: 100%;
   width: 100%;
   position: relative;
-	transform: perspective(75em) rotateY(0deg) rotateX(0deg);
+	transform: perspective(100em) rotateY(0deg) rotateX(0deg);
 	-moz-transition: 1s ease-in-out;
 	-o-transition: 1s ease-in-out;
 	transition: 1s ease-in-out;
@@ -827,17 +831,48 @@ span.final-caps{
 }
 
 .coin-face-front {
-	background: red;
 }
 
 .coin-face-back {
-	background: blue;
   transform: rotateY( 180deg );
 }
 
+img.hover-flip{
+	user-select: all;
+	pointer-events: all;
+	-moz-user-select: all;
+	-webkit-user-drag: all;
+	-webkit-user-select: all;
+	-ms-user-select: all;
+}
 
 .coin:hover{
-	transform: perspective(40em) rotateY(180deg) rotateX(0deg);
+	transform: perspective(100em) rotateY(180deg) rotateX(0deg);
+}
+
+#coin1{
+	top: 400px;
+	left: 14%;
+}
+
+#coin2{
+	right: 10%;
+}
+
+@media screen and (min-width: 1650px){
+	.spin-3d-scene{
+		width: 450px;
+		height: 450px;
+	}
+	#coin1{
+		top: 300px;
+		left: 12%;
+	}
+
+	#coin2{
+		top: 100px;
+		right: 15%;
+	}
 }
 
 /******SECTION 6******/
