@@ -742,6 +742,13 @@ span.final-caps{
 	max-width: 1200px;
 }
 
+.labyrinth-left-bleed{
+	position: absolute;
+	left: -28%;
+	width: 75%;
+	max-width: 1500px;
+}
+
 #spin-this{
 	animation:spin 6s linear infinite;
 	-webkit-animation:spin 6s linear infinite;
