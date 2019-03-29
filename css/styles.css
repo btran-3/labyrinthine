@@ -772,6 +772,16 @@ span.final-caps{
 
 /******SECTION 5******/
 
+.dance-center{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto; 
+	width: 100%;
+	max-width: 1000px;
+}
+
+
 /*
 .spin-3d-scene{
 	width: 500px;

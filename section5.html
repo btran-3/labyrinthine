@@ -62,20 +62,20 @@
 
 		<div class="twelve-grid-fixed-row-1 mar-bot-30vh">
 
+			<div class="in-back dance-center">
+        <i id="danceAnim"></i>
+      </div>
 
-			<div class="row-start-3 col-7-to-12 mar-bot-200">
-				<p>The Minotaur in the center of the labyrinth represents the demons that Theseus must overcome or the questions for which he must find answers. Once he wrestled with his demons, he then retraced his steps and emerged with a new understanding of life. In his book <I>Ritual: Psycho-Analytic Studies</i>, Theodor Reik looked at the aboriginal peoples of Australia. In their culture, the youths are put through a test prior to their initiation into adult society. A monster, represented by a gluttonous creature who demands young people to satisfy its cravings, symbolically kills them. This Australian ritual is similar to what the tributes from Athens were subjected, a monstrous creature that had an appetite for children. According to psychoanalytical theory, when children feel threatened by anxiety or fear, the ego kicks in and enters into a struggle for survival in which the child brings out all the available methods of defense. The result, according to Anna Freud, is that the personality changes. The adolescent’s ego can acknowledge its new form of maturity, and the child accepts himself/herself as an adult.</p>
+			<div class="row-start-2 col-7-to-12 mar-bot-200">
+				<p>The significance of the Auxerre ritual is clear in the context of medieval labyrinth lore, whereby the labyrinth sometimes symbolized hell and Theseus. The Auxerre dance, then, imitates Christ's descent into the labyrinth of Hell and his rescue of the just souls therein (the Harrowing of Hell and Resurrection). The first fully described labyrinth dance was thus a Christian ritual, an excellent example of the many kinds of dancing permitted and indeed encouraged by the medieval Christian church.</p>
+			</div>
+
+			<div class="row-start-3 col-2-to-7 mar-bot-200">
+				<p>Only in the late Middle Ages can the existence of labyrinth dances performed on foot be confirmed. While labyrinth dances may have existed in any of the numerous French and Italian cathedrals containing large labyrinth mosaics in their naves, and while some evidence suggests the practice of labyrinth dances at Sens and Chartres, only at Auxerre are there extensive records (1396 and later) of an Easter labyrinth dance. At sunset, the dean and canons gathered in the nave labyrinth, where a new canon presented the dean with a pelota (“ball”). While singing Wipo's Easter sequence, Victimae paschali laudes, the dean performed a tripudium within the labyrinth as the canons danced a chorea (“carol”) around, or perhaps through, the labyrinth in a “garland-like” fashion. All the while, the pelota was thrown back and forth. Afterward the group repaired to a communal meal.</p>
 			</div>
 
 			<div id="test-para" class="row-start-4 col-7-to-12">
-
-					The knot shape ultimately represents Ariadne’s thread, memory and <button type="button">clue.</button>
-				<div class="hidden">
-					<div>
-						<p class="hidden-def mono-def">The noun <b>clue</b> appeared as a variant spelling of <b>clew</b>, of the same pronunciation. Not frequent until the 17th century, <b>clue</b> has become the prevailing form of the work in the sense of a fact or idea that serves to reveal something or solve a problem. Both the forms <b>clew</b> and <b>clue</b> were especially used to refer to the ball of thread employed as the means of ‘threading’ a way through a labyrinth or maze in various mythological or legendary narratives, the best-known being that of Theseus.</p>
-					</div>
-				</div>
-				In Greek myth, Ariadne helped Theseus escape the labyrinth of the Minotaur. overcome in the soul’s movement toward salvation. The serpent shape, often found on prehistoric rock drawings, is most directly related to pathways and the promise of freedom or release at the end of the journey. The spiral labyrinth illustrates two basic movements, inward and outward. It can be associated with life processes of ingestion and energy. The spiral is also a powerful archetype that represents time, the cycle of the seasons, and the arc of life.
+					The earliest textual reference to a possible labyrinth dance is in The Iliad (eighth century BCE); it describes a ritual dance (sometimes linked with the geranos, or “crane dance”) of youths and maidens in a dancing place like that built for Ariadne by Daedalus, mythical creator of the Cretan labyrinth. The earliest visual evidence may be the Tragliatella Wine Pitcher (seventh-sixth centuries BCE), showing two mounted men and a line of nine warriors emerging from a labyrinth labeled truia. Scholars have speculated that truia may mean “dancing place,” or may refer to Troy.
 			</div>
 
 			<div class="col-2-to-7 row-start-4 grid-align-bot">
@@ -167,5 +167,23 @@
 	<script src="js/define.js"></script>
 	<script src="js/define-2.js"></script>
 	<script src="js/transition.js"></script>
+
+	<script src="images/section5/anim/lottie.js"></script>
+
+
+	<script>
+
+
+	 var danceAnimation = bodymovin.loadAnimation({
+ 		 container: document.getElementById('danceAnim'),
+ 		 renderer: 'svg',
+ 		 loop: true,
+ 		 autoplay: true,
+ 		 path: 'images/section5/anim/as dance.json'
+ 	 })
+
+
+	</script>
+
 
 </html>
