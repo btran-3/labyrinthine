@@ -57,34 +57,14 @@ body{
 	width: 1000px;
 	margin: 0 auto 0 auto;
 	background: #D5E7E2;
+	/*
+	height: auto !important;
+	overflow: hidden !important;
+	*/
 }
 
 main{
-	width: 850px;
-	margin: 0 auto 0 auto;
-	background: none;
 }
-
-h4{
-	font-family: alverata, serif;
-	font-weight: 600;
-	font-style: normal;
-	font-size: 24px;
-	line-height: 36px;
-	margin-bottom: 64px;
-	font-variant-caps: small-caps;
-}
-
-
-p{
-	font-family: edita-small, serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 18px;
-	line-height: 26px;
-	background: none;
-}
-
 
 
 
@@ -130,36 +110,6 @@ a.inline-link-next{
 	background: none;
 }
 
-.next-arrow p{
-	font-size: 15px;
-	font-family: interstate-mono, monospace;
-	font-weight: 400;
-	font-style: normal;
-	color: #FCF4F7;
-	text-align: right;
-	width: 850px;
-	margin: 120px auto auto auto;
-}
-
-.arrow-glyph{
-	font-size: 48px;
-	font-family: edita-small, serif;
-	font-weight: 400;
-	font-style: normal;
-	font-feature-settings: "ss01";
-
-}
-
 
 
 /******BACKGROUNDS******/
-#section1-asterisk{
-	min-width: 1564px !important;
-	max-width: 1564px !important;
-	position: absolute;
-	top: 4px;
-	left: 48.52%;
-	margin-left: -782px;
-	pointer-events: none;
-
-}

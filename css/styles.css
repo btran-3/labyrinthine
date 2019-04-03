@@ -70,6 +70,16 @@ div{
 	grid-template-rows: 15vh auto auto auto auto auto auto auto auto auto;
 }
 
+.twelve-grid-all-auto{
+	width: 1000px;
+	margin: 0 auto 0 auto;
+	/* padding-top: 500px; */
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-column-gap: 24px;
+	grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+}
+
 .twelve-grid-fixed-row-1{
 	width: 1000px;
 	margin: 0 auto 0 auto;
@@ -293,6 +303,14 @@ span.green-underline-copy{
 	grid-column: 1/13;
 }
 
+.col-1-to-7{
+	grid-column: 1/7;
+}
+
+.col-1-to-8{
+	grid-column: 1/8;
+}
+
 .col-2-to-5{
 	grid-column: 2/5;
 }
@@ -368,6 +386,9 @@ span.green-underline-copy{
 
 .mar-top-28{
 	margin-top: 28px;
+}
+.mar-top-50{
+	margin-top: 50px;
 }
 .mar-top-100{
 	margin-top: 100px;
@@ -627,6 +648,60 @@ span.final-caps{
 
 
 
+
+
+
+
+
+
+
+
+/******SECTION DIVIDERS******/
+.divider-text{
+	font-size: 2em;
+	line-height: 1.8em;
+}
+
+.dark-green-text{
+	color: #9EC6BD;
+}
+
+h4{
+	font-family: alverata, serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 18px;
+	margin-bottom: 48px;
+	font-variant-caps: small-caps;
+}
+
+h4.monospace{
+	font-family: interstate-mono, monospace;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+	margin-bottom: 48px;
+	font-variant-caps: normal;
+}
+
+
+.no-bleed{
+	position: fixed;
+	bottom: 0px;
+}
+
+#divider1-graphic{
+	position: relative;
+	width: 1600px;
+	left: 40%;
+	margin-bottom: -50px;
+	pointer-events: none;
+	opacity: .5;
+}
+
+
+
+
 /******SECTION 2******/
 
 #broken-compass-quote{
@@ -776,7 +851,7 @@ span.final-caps{
 	position: absolute;
 	left: 0;
 	right: 0;
-	margin: auto; 
+	margin: auto;
 	width: 100%;
 	max-width: 1000px;
 }
