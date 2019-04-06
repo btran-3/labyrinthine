@@ -91,7 +91,6 @@ div{
 }
 
 
-
 .twelve-grid-col-bg{
 	width: 1000px;
 	margin: 0 auto 0 auto;
@@ -173,6 +172,10 @@ img{
 	-webkit-user-drag: none;
 	-webkit-user-select: none;
 	-ms-user-select: none;
+}
+
+.clear-bg{
+	background: none;
 }
 
 .in-back{
@@ -666,6 +669,10 @@ span.final-caps{
 	color: #9EC6BD;
 }
 
+.light-green-text{
+	color: #D5E7E2;
+}
+
 h4{
 	font-family: alverata, serif;
 	font-weight: 600;
@@ -699,6 +706,53 @@ h4.monospace{
 	opacity: .5;
 }
 
+#divider2-graphic{
+	position: relative;
+	width: 1600px;
+	left: -15%;
+	margin-bottom: -50px;
+	pointer-events: none;
+	opacity: .5;
+}
+
+#divider3-graphic{
+	position: relative;
+	width: 3000px;
+	margin-left: -30vw;
+	margin-bottom: -100px;
+	pointer-events: none;
+	opacity: .5;
+}
+
+.dark-green-bg{
+	background: #9EC6BD;
+}
+
+#divider5-graphic{
+	position: relative;
+	width: 3000px;
+	margin-bottom: 50px;
+	pointer-events: none;
+	opacity: .5;
+}
+
+#divider6-graphic{
+	position: relative;
+	width: 1200px;
+	right: 25%;
+	margin-bottom: -50px;
+	pointer-events: none;
+	opacity: .5;
+}
+
+#divider7-graphic{
+	position: relative;
+	width: 700px;
+	left: 50%;
+	margin-bottom: -50px;
+	pointer-events: none;
+	opacity: .5;
+}
 
 
 
