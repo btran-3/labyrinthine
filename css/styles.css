@@ -897,6 +897,17 @@ h4.monospace{
 
 
 
+/******SECTION 4******/
+.center-rotate-text{
+	z-index: -1;
+	background: none;
+	position: fixed;
+	left: 0;
+}
+
+
+
+
 
 
 /******SECTION 5******/

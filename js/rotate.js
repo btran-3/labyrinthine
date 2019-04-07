@@ -3,7 +3,7 @@ if (iconRotate.length != 0) {
 	$(window).scroll(function () {
 		var scroll = $(window).scrollTop(),
 		maxScroll = $(document).height()-$(window).height();
-		iconRotate.css({transform: 'rotate(-' + (180 * scroll/maxScroll) + 'deg)'});
+		iconRotate.css({transform: 'rotate(-' + (360 * scroll/maxScroll) + 'deg)'});
 	});
 }
 
