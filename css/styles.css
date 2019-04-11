@@ -373,6 +373,7 @@ span.green-underline-copy{
 }
 
 
+
 .mar-top-em{
 	margin-top: 6em;
 }
@@ -397,6 +398,9 @@ span.green-underline-copy{
 }
 .mar-top-100{
 	margin-top: 100px;
+}
+.mar-top-150{
+	margin-top: 150px;
 }
 .mar-top-300{
 	margin-top: 300px;
@@ -1091,9 +1095,30 @@ img.hover-flip{
 	color: #E8D7D7;
 }
 
+/*******SOURCES and COLOPHON******/
+.sources{
+	font-size: 1em;
+	margin-bottom: 1em;
+	overflow-wrap: break-word;
+}
 
+span.source-indent{
+	padding: 0px 0px 0px 24px;
+	display: block;
+}
 
+.hover-link{
+	border-bottom: solid 2px #E8D7D7;
+	cursor: pointer;
+	opacity: 1;
+	transition-duration: .5s;
+	outline: none;
+	background: none;
+}
 
+.hover-link:hover{
+	opacity: .4;
+}
 
 
 
